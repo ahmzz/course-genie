@@ -14,8 +14,9 @@ const AddCourse = () => {
         </h2>
         <p className="text-sm text-gray-500">Create new course with AI, Share with friends.</p>
       </div>
-      <Link href={'/create-course'}>
-      <Button>+ Create AI Course</Button>
+      <Link className="p-4 bg-slate-200 hover:bg-slate-400" href={'/create-course'}>
+      {/* <Button>+ Create AI Course</Button> */}
+      + Create AI Course
       </Link>
     </div>
   );
